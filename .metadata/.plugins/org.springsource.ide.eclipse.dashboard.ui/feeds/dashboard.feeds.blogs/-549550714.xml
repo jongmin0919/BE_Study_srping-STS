@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Spring]]></title><description><![CDATA[Level up your Java code and explore what Spring can do for you.]]></description><link>https://spring.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 27 Aug 2024 18:39:51 GMT</lastBuildDate><item><title><![CDATA[This Week in Spring - August 27th, 2024 - SpringOne 2024 edition]]></title><link>https://spring.io/blog/2024/08/27/this-week-in-spring-august-27th-2024-springone-2024-edition</link><guid isPermaLink="true">https://spring.io/blog/2024/08/27/this-week-in-spring-august-27th-2024-springone-2024-edition</guid><dc:creator><![CDATA[Josh Long]]></dc:creator><pubDate>Tue, 27 Aug 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Hi, Spring fans, from the expo hall of SpringOne at VMware Explore 2024! There&apos;s  a livestream of some of the  key talks - register and watch for free now at &lt;a href=&quot;https://springone.io&quot;&gt;SpringOne.io&lt;/a&gt;. Right now I&apos;m hanging out at the expo hall manning a booth and doing demos to the hoardes of people streaming by, but I&apos;ll be talking a bit later, too, which, again, you can watch online at &lt;a href=&quot;https://springone.io&quot;&gt;SpringOne.io&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;As you can imagine, in the runup to SpringOne, there are a ton of exciting bits to look into, so let&apos;s!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://spring.io/blog/2024/08/23/spring-ai-1-0-0-m2-released&quot;&gt;Spring AI 1.0.0 M2 is available now!&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://spring.io/blog/2024/08/20/spring-ai-with-nvidia-llm-api&quot;&gt;Spring AI support for NVIDIA LLM API&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Good news everybody! &lt;a href=&quot;https://spring.io/blog/2024/08/27/spring-shell-3-2-7-3-3-2-and-3-4-0-m1-are-now-available&quot;&gt;Spring Shell 3.3.7, 3.3.2, and 3.4.0 M1 are now available&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://spring.io/blog/2024/08/23/spring-modulith-1-3-m2-1-2-3-and-1-1-8-released&quot;&gt;Spring Modulith 1.3 M2 and 1.2.3 are available&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;[Spring Boot CVE fixes](&lt;a href=&quot;https://spring.io/blog/2024/08/23/spring-boot-releases-fix-for-cve-2024-38807&quot;&gt;https://spring.io/blog/2024/08/23/spring-boot-releases-fix-for-cve-2024-38807&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://spring.io/blog/2024/08/23/structured-logging-in-spring-boot-3-4&quot;&gt;check out this nice blog looking at structured logging in Spring Boot 3.4&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://spring.io/blog/2024/08/23/spring-boot-3-4-0-m2-available-now&quot;&gt;Spring Boot 3.4 M2 now available&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://spring.io/blog/2024/08/23/a-bootiful-podcast-vaadin-developer-advocacy-legend-marcus-hellberg&quot;&gt;In last week&apos;s &lt;em&gt;A Bootiful Podcast&lt;/em&gt;, i talked with Vaadin&apos;s Marcus Hellberg&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://spring.io/blog/2024/08/22/spring-boot-3-3-3-available-now&quot;&gt;Spring Boot 3.3.3 is now available&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://spring.io/blog/2024/08/22/spring-boot-3-2-9-available-now&quot;&gt;Spring Boot 3.2.9 is now available&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://spring.io/blog/2024/08/21/spring-session-3-3-2-and-3-2-5-are-available-now&quot;&gt;Spring Session 3.3.2 and 3.2.5 are available now&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://spring.io/blog/2024/08/21/spring-session-3-4-0-m2-is-available-now&quot;&gt;Spring Session 3.4.0 M2 are available now&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://spring.io/blog/2024/08/21/spring-security-6-4-0-m2-is-available-now&quot;&gt;Spring Security 6.4.0 M2 is available now&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://spring.io/blog/2024/08/20/spring-for-apache-pulsar-1-2-0-m1-is-now-available&quot;&gt;Spring for Apache Pulsar 1.2.0 M1 is available now&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://spring.io/blog/2024/08/20/spring-for-apache-pulsar-1-0-9-and-1-1-3-are-now-available&quot;&gt;Spring for Apache Pulsar 1.0.9 and 1.1.3 are now available&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://spring.io/blog/2024/08/20/spring-security-5-8-14-6-2-6-and-6-3-2-are-available-now&quot;&gt;Spring Security 5.8.14 and 6.3.2 are available&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://spring.io/blog/2024/08/20/spring-authorization-server-1-4-0-m1-1-3-2-and-1-2-6-available-now&quot;&gt;Spring Authorization Server 1.4 m1 and 1.3.2 are available&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://spring.io/blog/2024/08/20/spring-for-apache-kafka-3-3-0-m2-3-2-3-and-3-1-8-available-now&quot;&gt;Spring for Apache Kafka 3.3.0 M2 is available now&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://spring.io/blog/2024/08/20/spring-cloud-2024-0-0-m1-aka-mooregate-has-been-released&quot;&gt;Spring Cloud Mooregate now available&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Spring Shell 3.2.7, 3.3.2 and 3.4.0-M1 are now available]]></title><link>https://spring.io/blog/2024/08/27/spring-shell-3-2-7-3-3-2-and-3-4-0-m1-are-now-available</link><guid isPermaLink="true">https://spring.io/blog/2024/08/27/spring-shell-3-2-7-3-3-2-and-3-4-0-m1-are-now-available</guid><dc:creator><![CDATA[Janne Valkealahti]]></dc:creator><pubDate>Tue, 27 Aug 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;On behalf of the team and everyone who has contributed, I&apos;m happy to announce that Spring Shell &lt;code&gt;3.2.7&lt;/code&gt;, &lt;code&gt;3.3.2&lt;/code&gt; and &lt;code&gt;3.4.0-M1&lt;/code&gt; has been released and are now available from Maven Central and &lt;a href=&quot;https://repo.spring.io/milestone&quot;&gt;Milestone Repo&lt;/a&gt; respectively.&lt;/p&gt;
+&lt;p&gt;Please see the &lt;a href=&quot;https://github.com/spring-projects/spring-shell/releases/tag/v3.2.7&quot;&gt;release notes 3.2.7&lt;/a&gt;, &lt;a href=&quot;https://github.com/spring-projects/spring-shell/releases/tag/v3.3.2&quot;&gt;release notes 3.3.2&lt;/a&gt; and &lt;a href=&quot;https://github.com/spring-projects/spring-shell/releases/tag/v3.4.0-M1&quot;&gt;release notes 3.4.0-M1&lt;/a&gt; for more details.&lt;/p&gt;
+&lt;p&gt;Thanks to all those who have contributed with issue reports and pull requests.&lt;/p&gt;
+&lt;h3 id=&quot;how-can-you-help&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#how-can-you-help&quot; aria-label=&quot;how can you help permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;How can you help?&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://spring.io/projects/spring-shell/&quot;&gt;Project Page&lt;/a&gt; | &lt;a href=&quot;https://github.com/spring-projects/spring-shell&quot;&gt;GitHub&lt;/a&gt; | &lt;a href=&quot;https://github.com/spring-projects/spring-shell/issues&quot;&gt;Issues&lt;/a&gt; | &lt;a href=&quot;https://docs.spring.io/spring-shell/reference/index.html&quot;&gt;Documentation&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Spring AI 1.0.0 M2 released]]></title><link>https://spring.io/blog/2024/08/23/spring-ai-1-0-0-m2-released</link><guid isPermaLink="true">https://spring.io/blog/2024/08/23/spring-ai-1-0-0-m2-released</guid><dc:creator><![CDATA[Mark Pollack]]></dc:creator><pubDate>Fri, 23 Aug 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;We are happy to announce the 1.0.0 Milestone 2 release of Spring AI.&lt;/p&gt;
+&lt;p&gt;This release brings significant enhancements and new features across various areas.&lt;/p&gt;
+&lt;h2 id=&quot;key-focus-observability&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#key-focus-observability&quot; aria-label=&quot;key focus observability permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Key Focus: Observability&lt;/h2&gt;
+&lt;p&gt;A major emphasis for this release has been on observability functionality, crucial for monitoring, debugging, and optimizing AI applications. Comprehensive observability features have been introduced for:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;ChatClient&lt;/code&gt; (including Advisors)&lt;/li&gt;
+&lt;li&gt;Chat Models (OpenAI, Ollama, Mistral, Anthropic)&lt;/li&gt;
+&lt;li&gt;Embedding Models&lt;/li&gt;
+&lt;li&gt;Image Generation Models&lt;/li&gt;
+&lt;li&gt;Vector Stores&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: Support for additional &lt;code&gt;ChatModel&lt;/code&gt; implementation will be added in future releases.&lt;/p&gt;
+&lt;p&gt;Here are some samples showcasing this functionality to get started&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/tzolov/ai-observability-demo&quot;&gt;Observability Demo&lt;/a&gt; from Christian Tzolov&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/ThomasVitale/llm-apps-java-spring-ai/tree/main/14-observability&quot;&gt;Observability Demos&lt;/a&gt; from Thomas Vitale&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Grazie mille (a thousand thanks ;) to Thomas Vitale for his significant efforts in contributing to the Observability feature!&lt;/p&gt;
+&lt;p&gt;Here is a screenshot showing the tracing of the following code&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;var response = chatClient.prompt()
+	.user(&quot;How does Carina work?&quot;)
+	.advisors(new QuestionAnswerAdvisor(vectorStore, SearchRequest.defaults()))
+	.advisors(new PromptChatMemoryAdvisor(chatMemory))
+	.call()
+	.chatResponse();
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&quot;//images.ctfassets.net/mnrwi97vnhts/2hk6LlyJFSL8hlzjGiSMaI/f136ab86696b1b59a5efbf94c8373256/spring-ai-blog-observability3.png&quot; alt=&quot;Grafana view of Spring AI Trace&quot;&gt;&lt;/p&gt;
+&lt;p&gt;In the trace view, you can see the nesting of the &lt;code&gt;ChatClient&lt;/code&gt; call which first passes through two advisors, the &lt;code&gt;QuestionAnswerAdvisor&lt;/code&gt; that does an embedding request and a query to the PGVector database.  Then it passes through the &lt;code&gt;PromptChatMemoryAdvisor&lt;/code&gt;, which takes very little time, and then finally to the calling of the OpenAI &lt;code&gt;gpt-4o&lt;/code&gt; model.&lt;/p&gt;
+&lt;p&gt;You can find all the details what metrics are available in the &lt;a href=&quot;https://docs.spring.io/spring-ai/reference/observabilty/index.html&quot;&gt;Observability Documentation&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;core-improvements&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#core-improvements&quot; aria-label=&quot;core improvements permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Core improvements&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;New:&lt;/strong&gt; &lt;a href=&quot;https://docs.spring.io/spring-ai/reference/api/etl-pipeline.html#_markdown&quot;&gt;MarkdownDocumentReader&lt;/a&gt; for ETL pipelines&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;New:&lt;/strong&gt; Cassandra-backed &lt;a href=&quot;https://docs.spring.io/spring-ai/reference/api/chatclient.html#_chat_memory&quot;&gt;chat memory&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;New:&lt;/strong&gt; Typesense testcontainer integration&lt;/li&gt;
+&lt;li&gt;ChatClient enhancements
+&lt;ul&gt;
+&lt;li&gt;Function registration with explicit input type&lt;/li&gt;
+&lt;li&gt;Dynamic filter expressions for QuestionAnswerAdvisor&lt;/li&gt;
+&lt;li&gt;Customizable logger advisor&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Improved API design of ResponseMetadata and the Message object hierarchy&lt;/li&gt;
+&lt;li&gt;Embedding format changed from List&lt;Double&gt; to float[]&lt;/li&gt;
+&lt;li&gt;Added JSON array handling to JsonReader&lt;/li&gt;
+&lt;li&gt;Options improvements
+&lt;ul&gt;
+&lt;li&gt;ChatOptions: Enhanced metadata configuration for defined models&lt;/li&gt;
+&lt;li&gt;EmbeddingOptions: Added model and dimensions options&lt;/li&gt;
+&lt;li&gt;ImageOptions: Added style option&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;ChatOptions added to PromptTemplate create methods&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;chatmodel-enhancements&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#chatmodel-enhancements&quot; aria-label=&quot;chatmodel enhancements permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;ChatModel Enhancements&lt;/h2&gt;
+&lt;p&gt;General improvements have been made across the chat model infrastructure classes. Key feature enhancements for specific models include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Anthropic: Added Function calling support&lt;/li&gt;
+&lt;li&gt;Azure Open AI
+&lt;ul&gt;
+&lt;li&gt;Function calling integration&lt;/li&gt;
+&lt;li&gt;Updated to Azure OpenAI Client library 1.0 beta-10&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;New:&lt;/strong&gt; &lt;a href=&quot;https://docs.spring.io/spring-ai/reference/api/audio/transcriptions/azure-openai-transcriptions.html&quot;&gt;Transcription support&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Added image handling for byte arrays&lt;/li&gt;
+&lt;li&gt;Added Multimodality support&lt;/li&gt;
+&lt;li&gt;Added OpenAI API key and MS-Entra authentication options&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Amazon Bedrock: Updated &lt;code&gt;bedrockruntime&lt;/code&gt; version to 2.26.7&lt;/li&gt;
+&lt;li&gt;HuggingFace: Added Boot starter&lt;/li&gt;
+&lt;li&gt;Minimax
+&lt;ul&gt;
+&lt;li&gt;Improved function calling&lt;/li&gt;
+&lt;li&gt;Added Web search tool support&lt;/li&gt;
+&lt;li&gt;Introduced sensitive information masking option&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Mistral
+&lt;ul&gt;
+&lt;li&gt;Added function calling support&lt;/li&gt;
+&lt;li&gt;Documentation for using Mistral AI via Spring AI&apos;s OpenAI client&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;New:&lt;/strong&gt; &lt;a href=&quot;https://docs.spring.io/spring-ai/reference/api/chat/moonshot-chat.html&quot;&gt;Moonshot chat model with function calling&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Ollama
+&lt;ul&gt;
+&lt;li&gt;Function calling support&lt;/li&gt;
+&lt;li&gt;Batch embedding request functionality&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;OpenAI
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;New:&lt;/strong&gt; &lt;a href=&quot;https://docs.spring.io/spring-ai/reference/api/moderation/openai-moderation.html&quot;&gt;Moderation API support&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Updates for partially compliant OpenAI model providers&lt;/li&gt;
+&lt;li&gt;Usage statistics for streaming chat responses&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://docs.spring.io/spring-ai/reference/api/chat/groq-chat.html&quot;&gt;Groq model provider integration with documentation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Configurable URL paths for Chat and Embedding models&lt;/li&gt;
+&lt;li&gt;Documentation for using &lt;a href=&quot;https://docs.spring.io/spring-ai/reference/api/chat/mistralai-chat.html#_openai_api_compatibility&quot;&gt;Mistral AI&lt;/a&gt; and &lt;a href=&quot;https://docs.spring.io/spring-ai/reference/api/chat/nvidia-chat.html&quot;&gt;NVIDIA LLM API&lt;/a&gt; via Spring AI&apos;s OpenAI client&lt;/li&gt;
+&lt;li&gt;Parallel function calling support&lt;/li&gt;
+&lt;li&gt;Organization ID and Project ID authentication options&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;New:&lt;/strong&gt; QianFan model for &lt;a href=&quot;https://docs.spring.io/spring-ai/reference/api/chat/qianfan-chat.html&quot;&gt;chat&lt;/a&gt;, &lt;a href=&quot;https://docs.spring.io/spring-ai/reference/api/embeddings/qianfan-embeddings.html&quot;&gt;embeddings&lt;/a&gt;, and &lt;a href=&quot;https://docs.spring.io/spring-ai/reference/api/image/qianfan-image.html&quot;&gt;image&lt;/a&gt; generation.&lt;/li&gt;
+&lt;li&gt;ONNX - Improved transformer embedding model&lt;/li&gt;
+&lt;li&gt;Google Vertex AI
+&lt;ul&gt;
+&lt;li&gt;Add &lt;a href=&quot;https://docs.spring.io/spring-ai/reference/api/embeddings/vertexai-embeddings-text.html&quot;&gt;Embedding model&lt;/a&gt; support&lt;/li&gt;
+&lt;li&gt;Updated Google Vertex SDK to 26.41.0&lt;/li&gt;
+&lt;li&gt;Resolved parallel function calling&lt;/li&gt;
+&lt;li&gt;Added system message support&lt;/li&gt;
+&lt;li&gt;Added ResponeMimeType in chat options&lt;/li&gt;
+&lt;li&gt;Added Google search retrieval tool support&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;ZhiPu: Added function calling support&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Thanks for &lt;a href=&quot;https://github.com/mxsl-gr&quot;&gt;Geng Rong&lt;/a&gt; for the Moonshot, QianFan, and ZhiPu model support.&lt;/p&gt;
+&lt;h2 id=&quot;vector-store-improvements&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#vector-store-improvements&quot; aria-label=&quot;vector store improvements permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Vector Store improvements&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Breaking Change&lt;/strong&gt;: Default value for vector store configuration property &lt;code&gt;initialize-schema&lt;/code&gt; changed to false.&lt;/li&gt;
+&lt;li&gt;Introduced &lt;code&gt;BatchingStrategy&lt;/code&gt; for efficient document embedding operations
+&lt;ul&gt;
+&lt;li&gt;Added &lt;code&gt;TokenCountBatchingStrategy&lt;/code&gt; implementation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Cassandra: Added &lt;code&gt;CassandraChatMemory&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Chroma:
+&lt;ul&gt;
+&lt;li&gt;Upgraded from use of &lt;code&gt;RestTemplate&lt;/code&gt; to &lt;code&gt;RestClient&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Integrated ChromaDB&apos;s &lt;code&gt;CHROMA_SERVER_AUTHN_CREDENTIALS&lt;/code&gt; environment variable for Docker Compose and Testcontainers&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Gemfire: Enhanced functionality&lt;/li&gt;
+&lt;li&gt;Milvus: Removed flush operations to prevent excessive segment creation&lt;/li&gt;
+&lt;li&gt;MongoDB: Improved efficiency using &lt;code&gt;org.bson.Documents&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Neo4j - Updated to latest Cypher-DSL&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;New:&lt;/strong&gt; &lt;a href=&quot;https://docs.spring.io/spring-ai/reference/api/vectordbs/opensearch.html&quot;&gt;Opensearch VectorStore implementation&lt;/a&gt;  Thanks &lt;a href=&quot;https://github.com/JM-Lab&quot;&gt;Jemin Huh&lt;/a&gt;!&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;New:&lt;/strong&gt; &lt;a href=&quot;https://docs.spring.io/spring-ai/reference/api/vectordbs/oracle.html&quot;&gt;Oracle 23ai VectorStore implementation&lt;/a&gt;  Thanks &lt;a href=&quot;https://github.com/loiclefevre&quot;&gt;Lo?c Lef?vre&lt;/a&gt;!&lt;/li&gt;
+&lt;li&gt;PGVector
+&lt;ul&gt;
+&lt;li&gt;Introduced customizable schema, table, and index names&lt;/li&gt;
+&lt;li&gt;Fixed IN/NOT IN filters for JSON queries&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Pinecone
+&lt;ul&gt;
+&lt;li&gt;Added configurable content and distance metadata fields&lt;/li&gt;
+&lt;li&gt;Added AOT hints&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Redis: Enabled use of standard &lt;code&gt;RedisAutoConfiguration&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;New:&lt;/strong&gt; &lt;a href=&quot;https://docs.spring.io/spring-ai/reference/api/vectordbs/typesense.html&quot;&gt;Typesense support&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;general-improvements&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#general-improvements&quot; aria-label=&quot;general improvements permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;General improvements&lt;/h2&gt;
+&lt;p&gt;Many refactoring, bug fixing, documentation enhancements across the board by a wide range of contributors. If we haven¡¯t gotten to your PR yet, we will, please be patient. Thanks to&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/N/A&quot;&gt;Mohammed, Ahmed Yousri Salama&lt;/a&gt;, &lt;a href=&quot;https://github.com/AshwinKrishnaK&quot;&gt;Ashwin Krishna K&lt;/a&gt;, &lt;a href=&quot;https://github.com/BlackBean99&quot;&gt;blackbean99&lt;/a&gt;, &lt;a href=&quot;https://github.com/Cho-D-YoungRae&quot;&gt;Youngrae Cho&lt;/a&gt;, &lt;a href=&quot;https://github.com/DadySu&quot;&gt;DadySu&lt;/a&gt;, &lt;a href=&quot;https://github.com/Flyingblu&quot;&gt;Jerry (Flyingblu)&lt;/a&gt;, &lt;a href=&quot;https://github.com/Grogdunn&quot;&gt;Lorenzo Caenazzo&lt;/a&gt;, &lt;a href=&quot;https://github.com/JM-Lab&quot;&gt;Jemin Huh&lt;/a&gt;, &lt;a href=&quot;https://github.com/JavaProgrammerLB&quot;&gt;Bill Lau&lt;/a&gt;, &lt;a href=&quot;https://github.com/JayPark7821&quot;&gt;JayPark7821&lt;/a&gt;, &lt;a href=&quot;https://github.com/KAMO030&quot;&gt;KAMOsama&lt;/a&gt;, &lt;a href=&quot;https://github.com/Kirboyyy&quot;&gt;David Caudill&lt;/a&gt;, &lt;a href=&quot;https://github.com/Lee-ChungMu&quot;&gt;Lee-ChungMu&lt;/a&gt;, &lt;a href=&quot;https://github.com/PabloSanchi&quot;&gt;Pablo Sanchi&lt;/a&gt;, &lt;a href=&quot;https://github.com/Seol-JY&quot;&gt;Seol_JY&lt;/a&gt;, &lt;a href=&quot;https://github.com/TarasVovk669&quot;&gt;TarasVovk669&lt;/a&gt;, &lt;a href=&quot;https://github.com/ThomasVitale&quot;&gt;Thomas Vitale&lt;/a&gt;, &lt;a href=&quot;https://github.com/TimJ0212&quot;&gt;TimJ0212&lt;/a&gt;, &lt;a href=&quot;https://github.com/alexcheng1982&quot;&gt;Fu Cheng&lt;/a&gt;, &lt;a href=&quot;https://github.com/ashni-mongodb&quot;&gt;ashni&lt;/a&gt;, &lt;a href=&quot;https://github.com/bmoussaud&quot;&gt;Benoit Moussaud&lt;/a&gt;, &lt;a href=&quot;https://github.com/chemicL&quot;&gt;Dariusz J?drzejczyk&lt;/a&gt;, &lt;a href=&quot;https://github.com/cocomongg&quot;&gt;cocomongg&lt;/a&gt;, &lt;a href=&quot;https://github.com/cyPark95&quot;&gt;ChanYeong&lt;/a&gt;, &lt;a href=&quot;https://github.com/dafriz&quot;&gt;David Afriz&lt;/a&gt;, &lt;a href=&quot;https://github.com/devholic22&quot;&gt;devholic22&lt;/a&gt;, &lt;a href=&quot;https://github.com/didalgolab&quot;&gt;Mariusz Bernacki&lt;/a&gt;, &lt;a href=&quot;https://github.com/dongfeng3692&quot;&gt;dongfeng3692&lt;/a&gt;, &lt;a href=&quot;https://github.com/dsyer&quot;&gt;Dave Syer&lt;/a&gt;, &lt;a href=&quot;https://github.com/eddumelendez&quot;&gt;Edd? Mel?ndez&lt;/a&gt;, &lt;a href=&quot;https://github.com/elmahdi43&quot;&gt;El Mahdi Oukhamou&lt;/a&gt;, &lt;a href=&quot;https://github.com/fing9&quot;&gt;Seongmin Kim&lt;/a&gt;, &lt;a href=&quot;https://github.com/fjtorres-zerocopy&quot;&gt;Francisco Javier Torres&lt;/a&gt;, &lt;a href=&quot;https://github.com/geetrawat&quot;&gt;geetrawat&lt;/a&gt;, &lt;a href=&quot;https://github.com/habuma&quot;&gt;Craig Walls&lt;/a&gt;, &lt;a href=&quot;https://github.com/hakusai22&quot;&gt;yinpeng&lt;/a&gt;, &lt;a href=&quot;https://github.com/impactCn&quot;&gt;Sinsy&lt;/a&gt;, &lt;a href=&quot;https://github.com/izeye&quot;&gt;Johnny Lim&lt;/a&gt;, &lt;a href=&quot;https://github.com/jo-kim&quot;&gt;jo-kim&lt;/a&gt;, &lt;a href=&quot;https://github.com/joshlong&quot;&gt;Josh Long&lt;/a&gt;, &lt;a href=&quot;https://github.com/jyami-kim&quot;&gt;KimMinjeong&lt;/a&gt;, &lt;a href=&quot;https://github.com/kirkster96&quot;&gt;Cameron Kirk&lt;/a&gt;, &lt;a href=&quot;https://github.com/l-trotta&quot;&gt;Laura Trotta&lt;/a&gt;, &lt;a href=&quot;https://github.com/loiclefevre&quot;&gt;Lo?c Lef?vre&lt;/a&gt;, &lt;a href=&quot;https://github.com/loveysuby&quot;&gt;Hyoseop Song&lt;/a&gt;, &lt;a href=&quot;https://github.com/luocongqiu&quot;&gt;luocq3&lt;/a&gt;, &lt;a href=&quot;https://github.com/michael-simons&quot;&gt;Michael Simons&lt;/a&gt;, &lt;a href=&quot;https://github.com/michaelsembwever&quot;&gt;mck&lt;/a&gt;, &lt;a href=&quot;https://github.com/moon0cean&quot;&gt;Jonatan Soto&lt;/a&gt;, &lt;a href=&quot;https://github.com/muthuishere&quot;&gt;Muthukumaran Navaneethakrishnan&lt;/a&gt;, &lt;a href=&quot;https://github.com/mxsl-gr&quot;&gt;Geng Rong&lt;/a&gt;, &lt;a href=&quot;https://github.com/nichozhan&quot;&gt;Nicholas Zhan&lt;/a&gt;, &lt;a href=&quot;https://github.com/ochnios&quot;&gt;Szymon Ochnio&lt;/a&gt;, &lt;a href=&quot;https://github.com/pgerhard&quot;&gt;Philipp Gerhard&lt;/a&gt;, &lt;a href=&quot;https://github.com/piotrooo&quot;&gt;Piotr Olaszewski&lt;/a&gt;, &lt;a href=&quot;https://github.com/rapenumaka&quot;&gt;rapenumaka&lt;/a&gt;, &lt;a href=&quot;https://github.com/rivkode&quot;&gt;rivkode&lt;/a&gt;, &lt;a href=&quot;https://github.com/rozza&quot;&gt;Ross Lawley&lt;/a&gt;, &lt;a href=&quot;https://github.com/rubin0&quot;&gt;Andrea Rubino&lt;/a&gt;, &lt;a href=&quot;https://github.com/sobychacko&quot;&gt;Soby Chacko&lt;/a&gt;, &lt;a href=&quot;https://github.com/status2xx&quot;&gt;xiaoxin&lt;/a&gt;, &lt;a href=&quot;https://github.com/stefanvassilev&quot;&gt;Stefan Vassilev&lt;/a&gt;, &lt;a href=&quot;https://github.com/timotheekelly&quot;&gt;Tim Kelly&lt;/a&gt;, &lt;a href=&quot;https://github.com/turchinc&quot;&gt;Chris Turchin&lt;/a&gt;, &lt;a href=&quot;https://github.com/uzhuraul&quot;&gt;uzhuraul&lt;/a&gt;, &lt;a href=&quot;https://github.com/v891&quot;&gt;Veerendra Vellanki&lt;/a&gt;, &lt;a href=&quot;https://github.com/wb04307201&quot;&gt;?ÚÏ&lt;/a&gt;, &lt;a href=&quot;https://github.com/xieyucan&quot;&gt;xiehui1956&lt;/a&gt;, &lt;a href=&quot;https://github.com/xsg22&quot;&gt;xsg22&lt;/a&gt;, &lt;a href=&quot;https://github.com/yeseong0412&quot;&gt;¾ç¿¹¼º&lt;/a&gt;, &lt;a href=&quot;https://github.com/yulshi&quot;&gt;Yulong Shi&lt;/a&gt;, &lt;a href=&quot;https://github.com/zbqmgldjfh&quot;&gt;jiwoo&lt;/a&gt;, &lt;a href=&quot;https://github.com/zlzzlzz2l&quot;&gt;zlzzlzz2l&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Spring Modulith 1.3 M2, 1.2.3, and 1.1.8 released]]></title><link>https://spring.io/blog/2024/08/23/spring-modulith-1-3-m2-1-2-3-and-1-1-8-released</link><guid isPermaLink="true">https://spring.io/blog/2024/08/23/spring-modulith-1-3-m2-1-2-3-and-1-1-8-released</guid><dc:creator><![CDATA[Oliver Drotbohm]]></dc:creator><pubDate>Fri, 23 Aug 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;It is my pleasure to announce the availability of Spring Modulith 1.3 M2, 1.2.3, and 1.1.8. They all contain bug fixes and upgrades to the latest versions of dependencies. Here are the most important features of the releases:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Support for nested application modules (1.3 M2 only). See the &lt;a href=&quot;https://docs.spring.io/spring-modulith/reference/1.3/fundamentals.html#modules.nested&quot;&gt;reference documentation&lt;/a&gt; for details. ? &lt;a href=&quot;https://github.com/spring-projects/spring-modulith/issues/578&quot;&gt;GH-578&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Event publication completion now issues a by-id query to significantly improve performance and reduce load on the database (1.3 M2 only). ? &lt;a href=&quot;https://github.com/spring-projects/spring-modulith/issues/258&quot;&gt;GH-258&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Minor performance improvements for event completion (all releases). ? &lt;a href=&quot;https://github.com/spring-projects/spring-modulith/issues/749&quot;&gt;GH-749&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For details, please check out the change logs for &lt;a href=&quot;https://github.com/spring-projects/spring-modulith/releases/tag/1.3.0-M2&quot;&gt;1.3 M2&lt;/a&gt;, &lt;a href=&quot;https://github.com/spring-projects/spring-modulith/releases/tag/1.2.3&quot;&gt;1.2.3&lt;/a&gt;, and &lt;a href=&quot;https://github.com/spring-projects/spring-modulith/releases/tag/1.1.8&quot;&gt;1.1.8&lt;/a&gt;. We appreciate any kind of feedback, in particular regarding the milestone release, in the GitHub &lt;a href=&quot;https://github.com/spring-projects/spring-modulith/discussions&quot;&gt;discussions&lt;/a&gt;.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Spring Boot Releases Fix for CVE-2024-38807]]></title><link>https://spring.io/blog/2024/08/23/spring-boot-releases-fix-for-cve-2024-38807</link><guid isPermaLink="true">https://spring.io/blog/2024/08/23/spring-boot-releases-fix-for-cve-2024-38807</guid><dc:creator><![CDATA[Andy Wilkinson]]></dc:creator><pubDate>Fri, 23 Aug 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;The Spring Boot team has released versions 3.2.9 and 3.3.3 that contain fixes for &lt;a href=&quot;https://spring.io/security/cve-2024-38807&quot;&gt;CVE-2024-38807&lt;/a&gt;, Signature Forgery Vulnerability in Spring Boot&apos;s Loader. For &lt;a href=&quot;https://tanzu.vmware.com/spring&quot;&gt;support&lt;/a&gt; customers, 2.7.22, 3.0.17, and 3.1.13 have also been released.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Spring Boot 2.7.21, 3.0.16, and 3.1.13 available now]]></title><link>https://spring.io/blog/2024/08/23/spring-boot-2-7-21-3-0-16-and-3-1-13-available-now</link><guid isPermaLink="true">https://spring.io/blog/2024/08/23/spring-boot-2-7-21-3-0-16-and-3-1-13-available-now</guid><dc:creator><![CDATA[Andy Wilkinson]]></dc:creator><pubDate>Fri, 23 Aug 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;On behalf of the team, I am pleased to announce that Spring Boot 2.7.22, 3.0.17, and 3.1.13 have been released for &lt;a href=&quot;https://tanzu.vmware.com/spring&quot;&gt;support&lt;/a&gt; customers. The releases are available from &lt;a href=&quot;https://packages.broadcom.com&quot;&gt;https://packages.broadcom.com&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Spring Boot &lt;a href=&quot;https://enterprise.spring.io/projects/spring-boot/changelog/2.7.22&quot;&gt;2.7.22&lt;/a&gt; ships with 17 bug fixes and dependency upgrades.&lt;/li&gt;
+&lt;li&gt;Spring Boot &lt;a href=&quot;https://enterprise.spring.io/projects/spring-boot/changelog/3.0.17&quot;&gt;3.0.17&lt;/a&gt; ships with 35 bug fixes and dependency upgrades.&lt;/li&gt;
+&lt;li&gt;Spring Boot &lt;a href=&quot;https://enterprise.spring.io/projects/spring-boot/changelog/3.1.13&quot;&gt;3.1.13&lt;/a&gt; ships with 46 bug fixes and dependency upgrades.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The next 2.7.x, 3.0.x, and 3.1.x releases for support customers are planned for 3 months&apos; time.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Structured logging in Spring Boot 3.4]]></title><link>https://spring.io/blog/2024/08/23/structured-logging-in-spring-boot-3-4</link><guid isPermaLink="true">https://spring.io/blog/2024/08/23/structured-logging-in-spring-boot-3-4</guid><dc:creator><![CDATA[Moritz Halbritter]]></dc:creator><pubDate>Fri, 23 Aug 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Logging is a long established part of troubleshooting applications and one of the three pillars of observability, next to metrics and traces. No one likes flying blind in production, and when incidents happen, developers are happy to have log files. Logs are often written out in a human-readable format.&lt;/p&gt;
+&lt;p&gt;Structured logging is a technique where the log output is written in a well-defined, often machine-readable format. This format can be fed into log management systems and enables powerful search and analytics capabilities. One of the most commonly used formats for structured logging is JSON.&lt;/p&gt;
+&lt;p&gt;With Spring Boot 3.4, structured logging is supported out of the box. It supports the &lt;a href=&quot;https://www.elastic.co/guide/en/ecs/8.11/ecs-reference.html&quot;&gt;Elastic Common Schema (ECS)&lt;/a&gt; and &lt;a href=&quot;https://github.com/logfellow/logstash-logback-encoder?tab=readme-ov-file#standard-fields&quot;&gt;Logstash&lt;/a&gt; formats, but it&apos;s also possible to extend it with your own formats.&lt;/p&gt;
+&lt;p&gt;Let&apos;s jump straight in and see how it works!&lt;/p&gt;
+&lt;h2 id=&quot;structured-logging-hello-world&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#structured-logging-hello-world&quot; aria-label=&quot;structured logging hello world permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Structured logging Hello World&lt;/h2&gt;
+&lt;p&gt;Create a new project on &lt;a href=&quot;https://start.spring.io&quot;&gt;start.spring.io&lt;/a&gt;. You don&apos;t need to add any dependencies, but make sure to select at least Spring Boot 3.4.0-M2.&lt;/p&gt;
+&lt;p&gt;To enable structured logging on the console, add this to your &lt;code&gt;application.properties&lt;/code&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-properties&quot;&gt;logging.structured.format.console=ecs
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This will instruct Spring Boot to log in the Elastic Common Schema (ECS) format.&lt;/p&gt;
+&lt;p&gt;Now start the application, and you&apos;ll see that the log is formatted in JSON:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-json&quot;&gt;{&quot;@timestamp&quot;:&quot;2024-07-30T08:41:10.561295200Z&quot;,&quot;log.level&quot;:&quot;INFO&quot;,&quot;process.pid&quot;:67455,&quot;process.thread.name&quot;:&quot;main&quot;,&quot;service.name&quot;:&quot;structured-logging-demo&quot;,&quot;log.logger&quot;:&quot;com.example.structured_logging_demo.StructuredLoggingDemoApplication&quot;,&quot;message&quot;:&quot;Started StructuredLoggingDemoApplication in 0.329 seconds (process running for 0.486)&quot;,&quot;ecs.version&quot;:&quot;8.11&quot;}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Quite cool, right? Now let&apos;s dive into the more advanced topics.&lt;/p&gt;
+&lt;h2 id=&quot;structured-logging-to-a-file&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#structured-logging-to-a-file&quot; aria-label=&quot;structured logging to a file permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Structured logging to a file&lt;/h2&gt;
+&lt;p&gt;You can also enable structured logging to a file. This can be used, for example, to print human-readable logs on the console and write structured logs to a file for machine ingestion.&lt;/p&gt;
+&lt;p&gt;To enable that, add this to your &lt;code&gt;application.properties&lt;/code&gt; and make sure to delete the &lt;code&gt;logging.structured.format.console=ecs&lt;/code&gt; setting:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-properties&quot;&gt;logging.structured.format.file=ecs
+logging.file.name=log.json
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Now start your application and you&apos;ll see that there&apos;s human-readable log on the console, and the file &lt;code&gt;log.json&lt;/code&gt; contains machine-readable JSON content.&lt;/p&gt;
+&lt;h2 id=&quot;add-additional-fields&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#add-additional-fields&quot; aria-label=&quot;add additional fields permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Add additional fields&lt;/h2&gt;
+&lt;p&gt;One powerful feature of structured logging is that developers can add information to the log event in a structured way. You can, for example, add the user id to every log event and then later filter on that id to see what this particular user did.&lt;/p&gt;
+&lt;p&gt;Both Elastic Common Schema and Logstash include the content of the &lt;a href=&quot;https://logback.qos.ch/manual/mdc.html&quot;&gt;Mapped Diagnostic Context&lt;/a&gt; in the JSON. To see that in action, let&apos;s create our own log message:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;@Component
+class MyLogger implements CommandLineRunner {
+    private static final Logger LOGGER = LoggerFactory.getLogger(MyLogger.class);
+
+    @Override
+    public void run(String... args) {
+        MDC.put(&quot;userId&quot;, &quot;1&quot;);
+        LOGGER.info(&quot;Hello structured logging!&quot;);
+        MDC.remove(&quot;userId&quot;);
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Before logging the log message, this code also sets the user id in the MDC. Spring Boot automatically includes the user id in the JSON:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-json&quot;&gt;{ ... ,&quot;message&quot;:&quot;Hello structured logging!&quot;,&quot;userId&quot;:&quot;1&quot; ... }
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;You can also use the &lt;a href=&quot;https://www.slf4j.org/manual.html#fluent&quot;&gt;fluent logging API&lt;/a&gt; to add additional fields without relying on the MDC:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;@Component
+class MyLogger implements CommandLineRunner {
+
+    private static final Logger LOGGER = LoggerFactory.getLogger(MyLogger.class);
+
+    @Override
+    public void run(String... args) {
+        LOGGER.atInfo().setMessage(&quot;Hello structured logging!&quot;).addKeyValue(&quot;userId&quot;, &quot;1&quot;).log();
+    }
+
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Elastic Common Schema &lt;a href=&quot;https://www.elastic.co/guide/en/ecs/8.11/ecs-field-reference.html&quot;&gt;defines a lot of field names&lt;/a&gt;, and Spring Boot has built-in support for the service name, the service version, the service environment and the node name. To set values for those fields, you can use the following in your &lt;code&gt;application.properties&lt;/code&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-properties&quot;&gt;logging.structured.ecs.service.name=MyService
+logging.structured.ecs.service.version=1
+logging.structured.ecs.service.environment=Production
+logging.structured.ecs.service.node-name=Primary
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;When looking at the JSON output, there are now fields for &lt;code&gt;service.name&lt;/code&gt;, &lt;code&gt;service.version&lt;/code&gt;, &lt;code&gt;service.environment&lt;/code&gt; and &lt;code&gt;service.node.name&lt;/code&gt;. With that, you can now filter in your logging system on the node name, service versions, etc.&lt;/p&gt;
+&lt;h2 id=&quot;custom-log-formats&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#custom-log-formats&quot; aria-label=&quot;custom log formats permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Custom log formats&lt;/h2&gt;
+&lt;p&gt;As said above, Spring Boot supports the Elastic Common Schema and Logstash formats out of the box. To add your own format, you have to do the following steps:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Create a custom implementation of the &lt;code&gt;StructuredLogFormatter&lt;/code&gt; interface&lt;/li&gt;
+&lt;li&gt;Reference your custom implementation in the &lt;code&gt;application.properties&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;First, let&apos;s create our own custom implementation:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;class MyStructuredLoggingFormatter implements StructuredLogFormatter&amp;#x3C;ILoggingEvent&gt; {
+
+    @Override
+    public String format(ILoggingEvent event) {
+        return &quot;time=&quot; + event.getTimeStamp() + &quot; level=&quot; + event.getLevel() + &quot; message=&quot; + event.getMessage() + &quot;\n&quot;;
+    }
+
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;As you can see, the structured logging support is not limited to JSON, you can return any &lt;code&gt;String&lt;/code&gt; you want. In this example, we chose to use &lt;code&gt;key=value&lt;/code&gt; pairs.&lt;/p&gt;
+&lt;p&gt;We now need to make Spring Boot aware of our custom implementation. To do that, add this to the &lt;code&gt;application.properties&lt;/code&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-properties&quot;&gt;logging.structured.format.console=com.example.structured_logging_demo.MyStructuredLoggingFormatter
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;It&apos;s time to start the application and marvel at the log output!&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;time=1722330118045 level=INFO message=Hello structured logging!
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Wow, look at that! What a beautiful piece of log output!&lt;/p&gt;
+&lt;p&gt;If you want to write JSON, there&apos;s a handy new &lt;code&gt;JsonWriter&lt;/code&gt; in Spring Boot 3.4, which you can use:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-java&quot;&gt;class MyStructuredLoggingFormatter implements StructuredLogFormatter&amp;#x3C;ILoggingEvent&gt; {
+
+    private final JsonWriter&amp;#x3C;ILoggingEvent&gt; writer = JsonWriter.&amp;#x3C;ILoggingEvent&gt;of((members) -&gt; {
+        members.add(&quot;time&quot;, (event) -&gt; event.getInstant());
+        members.add(&quot;level&quot;, (event) -&gt; event.getLevel());
+        members.add(&quot;thread&quot;, (event) -&gt; event.getThreadName());
+        members.add(&quot;message&quot;, (event) -&gt; event.getFormattedMessage());
+        members.add(&quot;application&quot;).usingMembers((application) -&gt; {
+            application.add(&quot;name&quot;, &quot;StructuredLoggingDemo&quot;);
+            application.add(&quot;version&quot;, &quot;1.0.0-SNAPSHOT&quot;);
+        });
+        members.add(&quot;node&quot;).usingMembers((node) -&gt; {
+           node.add(&quot;hostname&quot;, &quot;node-1&quot;);
+           node.add(&quot;ip&quot;, &quot;10.0.0.7&quot;);
+        });
+    }).withNewLineAtEnd();
+
+    @Override
+    public String format(ILoggingEvent event) {
+        return this.writer.writeToString(event);
+    }
+
+}
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Of course you can also use any other JSON library (e.g. Jackson) to create the JSON, you don&apos;t have to use the &lt;code&gt;JsonWriter&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;The resulting log message looks something like this:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-json&quot;&gt;{&quot;time&quot;:&quot;2024-07-30T09:14:49.377308361Z&quot;,&quot;level&quot;:&quot;INFO&quot;,&quot;thread&quot;:&quot;main&quot;,&quot;message&quot;:&quot;Hello structured logging!&quot;,&quot;application&quot;:{&quot;name&quot;:&quot;StructuredLoggingDemo&quot;,&quot;version&quot;:&quot;1.0.0-SNAPSHOT&quot;},&quot;node&quot;:{&quot;hostname&quot;:&quot;node-1&quot;,&quot;ip&quot;:&quot;10.0.0.7&quot;}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&quot;wrapping-up&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#wrapping-up&quot; aria-label=&quot;wrapping up permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Wrapping up&lt;/h2&gt;
+&lt;p&gt;We hope you like that new feature in Spring Boot 3.4! The &lt;a href=&quot;https://docs.spring.io/spring-boot/3.4-SNAPSHOT/reference/features/logging.html#features.logging.structured&quot;&gt;documentation&lt;/a&gt; has been updated for structured logging, too.&lt;/p&gt;
+&lt;p&gt;Please let us know what you think and if you find any issues, our &lt;a href=&quot;https://github.com/spring-projects/spring-boot/issues&quot;&gt;issue tracker&lt;/a&gt; is always open!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Spring Boot 3.4.0-M2 available now]]></title><link>https://spring.io/blog/2024/08/23/spring-boot-3-4-0-m2-available-now</link><guid isPermaLink="true">https://spring.io/blog/2024/08/23/spring-boot-3-4-0-m2-available-now</guid><dc:creator><![CDATA[Phil Webb]]></dc:creator><pubDate>Fri, 23 Aug 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;On behalf of the team and everyone who has contributed, I&apos;m happy to announce that Spring Boot &lt;code&gt;3.4.0-M2&lt;/code&gt; has been released and is now available from &lt;a href=&quot;https://repo.spring.io/milestone&quot;&gt;https://repo.spring.io/milestone&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This release includes &lt;a href=&quot;https://github.com/spring-projects/spring-boot/releases/tag/v3.4.0-M2&quot;&gt;131 enhancements, documentation improvements, dependency upgrades, and bug fixes&lt;/a&gt;. Notable new features include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;SSL information and health check actuator&lt;/li&gt;
+&lt;li&gt;Improved Docker support&lt;/li&gt;
+&lt;li&gt;Image Building Support&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Please see the &lt;a href=&quot;https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-3.4.0-M2-Release-Notes&quot;&gt;release notes&lt;/a&gt; for more details and upgrade instructions.&lt;/p&gt;
+&lt;p&gt;Thanks to all those who have contributed with issue reports and pull requests.&lt;/p&gt;
+&lt;h3 id=&quot;how-can-you-help&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#how-can-you-help&quot; aria-label=&quot;how can you help permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;How can you help?&lt;/h3&gt;
+&lt;p&gt;If you&apos;re interested in helping out, check out the &lt;a href=&quot;https://github.com/spring-projects/spring-boot/labels/status%3A%20ideal-for-contribution&quot;&gt;&quot;ideal for contribution&quot; tag&lt;/a&gt; in the issue repository. If you have general questions, please ask on &lt;a href=&quot;https://stackoverflow.com&quot;&gt;stackoverflow.com&lt;/a&gt; using the &lt;a href=&quot;https://stackoverflow.com/tags/spring-boot&quot;&gt;&lt;code&gt;spring-boot&lt;/code&gt; tag&lt;/a&gt; or chat with the community on &lt;a href=&quot;https://gitter.im/spring-projects/spring-boot&quot;&gt;Gitter&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://spring.io/projects/spring-boot/&quot;&gt;Project Page&lt;/a&gt; | &lt;a href=&quot;https://github.com/spring-projects/spring-boot&quot;&gt;GitHub&lt;/a&gt; | &lt;a href=&quot;https://github.com/spring-projects/spring-boot/issues&quot;&gt;Issues&lt;/a&gt; | &lt;a href=&quot;https://docs.spring.io/spring-boot/docs/3.4.0-M2/reference/html&quot;&gt;Documentation&lt;/a&gt; | &lt;a href=&quot;https://stackoverflow.com/questions/tagged/spring-boot&quot;&gt;Stack Overflow&lt;/a&gt; | &lt;a href=&quot;https://gitter.im/spring-projects/spring-boot&quot;&gt;Gitter&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[A Bootiful Podcast: Vaadin developer advocacy legend Marcus Hellberg]]></title><link>https://spring.io/blog/2024/08/23/a-bootiful-podcast-vaadin-developer-advocacy-legend-marcus-hellberg</link><guid isPermaLink="true">https://spring.io/blog/2024/08/23/a-bootiful-podcast-vaadin-developer-advocacy-legend-marcus-hellberg</guid><dc:creator><![CDATA[Josh Long]]></dc:creator><pubDate>Fri, 23 Aug 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Hi, Spring fans! In this installment, I talk to Vaadin developer advocacy legend Marcus Hellberg about the lates-and-greatest in the wide and wonderful world of Spring.&lt;/p&gt;
+&lt;iframe title=&quot;Vaadin developer advocacy legend Marcus Hellberg&quot; allowtransparency=&quot;true&quot; height=&quot;150&quot; width=&quot;100%&quot; style=&quot;border: none; min-width: min(100%, 430px);height:150px;&quot; scrolling=&quot;no&quot; data-name=&quot;pb-iframe-player&quot; src=&quot;https://www.podbean.com/player-v2/?i=b3er9-16ad5c1-pb&amp;from=pb6admin&amp;share=1&amp;download=1&amp;rtl=0&amp;fonts=Arial&amp;skin=1&amp;font-color=&amp;logo_link=episode_page&amp;btn-skin=7&quot; loading=&quot;lazy&quot;&gt;&lt;/iframe&gt;</content:encoded></item><item><title><![CDATA[Spring Boot 3.3.3 available now]]></title><link>https://spring.io/blog/2024/08/22/spring-boot-3-3-3-available-now</link><guid isPermaLink="true">https://spring.io/blog/2024/08/22/spring-boot-3-3-3-available-now</guid><dc:creator><![CDATA[Andy Wilkinson]]></dc:creator><pubDate>Thu, 22 Aug 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;On behalf of the team and everyone who has contributed, I&apos;m happy to announce that Spring Boot &lt;code&gt;3.3.3&lt;/code&gt; has been released and is now available from Maven Central.&lt;/p&gt;
+&lt;p&gt;This release includes &lt;a href=&quot;https://github.com/spring-projects/spring-boot/releases/tag/v3.3.3&quot;&gt;73 bug fixes, documentation improvements, and dependency upgrades&lt;/a&gt;. Thanks to all those who have contributed with issue reports and pull requests.&lt;/p&gt;
+&lt;h3 id=&quot;how-can-you-help&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#how-can-you-help&quot; aria-label=&quot;how can you help permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;How can you help?&lt;/h3&gt;
+&lt;p&gt;If you&apos;re interested in helping out, check out the &lt;a href=&quot;https://github.com/spring-projects/spring-boot/labels/status%3A%20ideal-for-contribution&quot;&gt;&quot;ideal for contribution&quot; tag&lt;/a&gt; in the issue repository. If you have general questions, please ask on &lt;a href=&quot;https://stackoverflow.com&quot;&gt;stackoverflow.com&lt;/a&gt; using the &lt;a href=&quot;https://stackoverflow.com/tags/spring-boot&quot;&gt;&lt;code&gt;spring-boot&lt;/code&gt; tag&lt;/a&gt; or chat with the community on &lt;a href=&quot;https://gitter.im/spring-projects/spring-boot&quot;&gt;Gitter&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://spring.io/projects/spring-boot/&quot;&gt;Project Page&lt;/a&gt; | &lt;a href=&quot;https://github.com/spring-projects/spring-boot&quot;&gt;GitHub&lt;/a&gt; | &lt;a href=&quot;https://github.com/spring-projects/spring-boot/issues&quot;&gt;Issues&lt;/a&gt; | &lt;a href=&quot;https://docs.spring.io/spring-boot/docs/3.3.3/reference/html&quot;&gt;Documentation&lt;/a&gt; | &lt;a href=&quot;https://stackoverflow.com/questions/tagged/spring-boot&quot;&gt;Stack Overflow&lt;/a&gt; | &lt;a href=&quot;https://gitter.im/spring-projects/spring-boot&quot;&gt;Gitter&lt;/a&gt;&lt;/p&gt;</content:encoded></item></channel></rss>
