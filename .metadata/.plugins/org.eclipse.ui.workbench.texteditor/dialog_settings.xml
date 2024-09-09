@@ -1,22 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="maven"/>
+		<item key="selection" value="hikariConfig"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
-			<item value="maven"/>
-			<item value="name"/>
+			<item value="hikariConfig"/>
+			<item value="dataSource"/>
+			<item value="log4"/>
+			<item value="hikari"/>
+			<item value="hi"/>
+			<item value="jikari"/>
+			<item value="getTime2"/>
+			<item value="getTime"/>
+			<item value="mybatis-spring:scan"/>
+			<item value="mybatis"/>
+			<item value="session"/>
+			<item value="junit"/>
+			<item value="SpringJUnit4ClassRunner"/>
+			<item value="5.0.7"/>
+			<item value="spring-test"/>
 		</list>
 		<list key="replacehistory">
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="799"/>
-		<item key="DIALOG_Y_ORIGIN" value="222"/>
+		<item key="DIALOG_X_ORIGIN" value="1269"/>
+		<item key="DIALOG_Y_ORIGIN" value="213"/>
 		<item key="DIALOG_WIDTH" value="340"/>
 		<item key="DIALOG_HEIGHT" value="454"/>
 		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
