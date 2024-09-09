@@ -1,8 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd">
-	
-	<!-- Root Context: defines shared resources visible to all other web components -->
-		
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:mybatis-spring="http://mybatis.org/schema/mybatis-spring"
+	xsi:schemaLocation="http://mybatis.org/schema/mybatis-spring http://mybatis.org/schema/mybatis-spring.xsd
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd">
+
+   <!-- Root Context: defines shared resources visible to all other web components -->
+    <bean id="hikariConfig" class="com.zaxxer.hikari.HikariConfig">
+    <!-- 기존 jdbc 드라이브 매니저
+        <property name="driverClassName" value="oracle.jdbc.driver.OracleDriver"/>
+        <property name="jdbcUrl" value="jdbc:oracle:thin:@localhost:1521:XE"/>
+     -->
+     
+     <!-- log4jdbc 매니저 -->
+     	<property name="driverClassName" value="net.sf.log4jdbc.sql.jdbcapi.DriverSpy"/>
+     	<property name="jdbcUrl" value="jdbc:log4jdbc:oracle:thin:@localhost:1521:XE"/>
+        <property name="username" value="book_ex"/>
+        <property name="password" value="book_ex"/>
+    </bean>
+    
+    <bean id="dataSource" class="com.zaxxer.hikari.HikariDataSource">
+    	<constructor-arg ref="hikariConfig"/>
+	</bean>
+
+    <!-- MyBatis SqlSessionFactory 설정 -->
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="dataSource"/>	
+    </bean>
+    	
+   	<mybatis-spring:scan base-package="org.zerock.mapper"/>
+    	
+    <!-- Spring Component 스캔 -->
+    <context:component-scan base-package="org.zerock.sample"/>
 </beans>
